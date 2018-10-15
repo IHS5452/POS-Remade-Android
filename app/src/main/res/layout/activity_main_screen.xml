@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ianschrauth.pos_reamde_android.mainScreen"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/checkout14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nia"
+        app:layout_constraintStart_toEndOf="@+id/checkout21"
+        app:layout_constraintTop_toBottomOf="@+id/checkout21" />
+
+    <Button
+        android:id="@+id/checkout39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VBAB3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout45"
+        app:layout_constraintStart_toEndOf="@+id/checkout36" />
+
+    <Button
+        android:id="@+id/checkout40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TGWTF3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout42"
+        app:layout_constraintStart_toEndOf="@+id/checkout42" />
+
+    <Button
+        android:id="@+id/checkout41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VBAB1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout45"
+        app:layout_constraintStart_toStartOf="@+id/piatw" />
+
+    <Button
+        android:id="@+id/checkout42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TGWTF2"
+        app:layout_constraintStart_toEndOf="@+id/checkout44"
+        app:layout_constraintTop_toBottomOf="@+id/checkout44" />
+
+    <Button
+        android:id="@+id/checkout43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TGWTF1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout42"
+        app:layout_constraintStart_toStartOf="@+id/checkout44" />
+
+    <Button
+        android:id="@+id/checkout44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="202dp"
+        android:text="VBABss"
+        app:layout_constraintStart_toStartOf="@+id/checkout41"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/checkout45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VBAB2"
+        app:layout_constraintStart_toEndOf="@+id/piatw"
+        app:layout_constraintTop_toBottomOf="@+id/piatw" />
+
+    <Button
+        android:id="@+id/checkout33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bella"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout14"
+        app:layout_constraintStart_toStartOf="@+id/checkout21" />
+
+    <Button
+        android:id="@+id/checkout34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIFY2"
+        app:layout_constraintStart_toEndOf="@+id/checkout43"
+        app:layout_constraintTop_toBottomOf="@+id/checkout43" />
+
+    <Button
+        android:id="@+id/checkout35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SIATW1Clcik"
+        android:text="SIATW1"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout22"
+        app:layout_constraintStart_toEndOf="@+id/checkout22" />
+
+    <Button
+        android:id="@+id/checkout36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="43dp"
+        android:onClick="CIATWClcik"
+        android:text="CIATW"
+        app:layout_constraintBottom_toTopOf="@+id/checkout44"
+        app:layout_constraintStart_toEndOf="@+id/piatw" />
+
+    <Button
+        android:id="@+id/checkout21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IIHY"
+        app:layout_constraintStart_toStartOf="@+id/checkout20"
+        app:layout_constraintTop_toBottomOf="@+id/checkout20" />
+
+    <Button
+        android:id="@+id/checkout22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BIATWClcik"
+        android:text="BIATW"
+        app:layout_constraintStart_toEndOf="@+id/checkout36"
+        app:layout_constraintTop_toTopOf="@+id/checkout36" />
+
+    <Button
+        android:id="@+id/piatw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:onClick="PIATWClcik"
+        android:text="PIATW"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout36"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/checkout19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIFY3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout18"
+        app:layout_constraintStart_toEndOf="@+id/checkout40" />
+
+    <Button
+        android:id="@+id/checkout20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIFY"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout34"
+        app:layout_constraintStart_toStartOf="@+id/checkout43" />
+
+    <Button
+        android:id="@+id/checkout18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIFY2C"
+        app:layout_constraintStart_toEndOf="@+id/checkout42"
+        app:layout_constraintTop_toBottomOf="@+id/checkout42" />
+
+    <Button
+        android:id="@+id/checkout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:text="PAY NOW"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="116dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="10dp"
+        android:text="0.00"
+        android:textSize="15pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/checkout14"
+        app:layout_constraintStart_toEndOf="@+id/checkout14"
+        app:layout_constraintTop_toBottomOf="@+id/checkout14" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="Remove books"
+        app:layout_constraintBaseline_toBaselineOf="@+id/checkout2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
